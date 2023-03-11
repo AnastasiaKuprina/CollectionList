@@ -84,13 +84,13 @@ public class Main {
             }
         }
     }
-    public static void arrayОutput( List<String>  c) {
+    private static void arrayОutput( List<String>  c) {
         for (int i = 0; i < c.size(); i++) {
             System.out.println(i + 1 + ". " + c.get(i));
         }
     }
 
-    public static boolean message( List<String>  c) {
+    private static boolean message( List<String>  c) {
         if (c.size() == 0) {
             System.out.println("Операция не возможна! Заполните список.");
             return false;
